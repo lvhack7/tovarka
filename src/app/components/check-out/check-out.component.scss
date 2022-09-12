@@ -1,0 +1,38 @@
+.main {
+    padding: 20px 10px;
+
+    .header {
+        text-align: center;
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 26px;
+        color: #313444;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        padding: 13px;
+        border: none;
+        text-align: center;
+
+        img {
+            height: 124px;
+            margin-bottom: 50px;
+        }
+
+        .title {
+            font-weight: 400;
+            font-size: 21px;
+            line-height: 26px;
+            color: #313646;
+            margin-bottom: 50px;
+        }
+
+        .subtitle {
+            font-weight: 400;
+            font-size: 21px;
+            line-height: 26px;
+            margin: 0;
+        }
+    }
+}

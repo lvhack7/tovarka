@@ -1,0 +1,24 @@
+<div class="main">
+    <form ngNativeValidate (ngSubmit)="sendCode()">
+        <p class="header">
+            Оформление заказа
+        </p>
+
+        <div class="card">
+            <p class="title">
+                На номер +7 701 617 77 61 был
+                отправлен SMS-код
+            </p>
+            <div class="label-input">
+                <input type="tel" name="code" [imask]="{mask: '000000',lazy: false, placeholderChar: '-'}"
+                    [(ngModel)]="code" (ngModelChange)="sendCode()">
+            </div>
+            <div class="resend-pass" (click)="sendSms()">ВЫСЛАТЬ SMS ПОВТОРНО</div>
+            <p class="approvement">
+                Подтверждая номер телефона кодом из SMS, вы соглашаетесь со сбором и обработкой ваших персональных
+                данных, предоставлением информации и получением отчета из кредитного и вы ознакомлены и согласны с <a
+                    style="color: #E3371D">полным текстом согласий</a>
+            </p>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,27 @@
+<section class="veriface">
+    <div class="container">
+        <div class="top-info" id="vfInfo">
+            <div class="btns">
+                <button id="btn" onclick="onInitButtonClick()"><span id="ChangeText">Пройти биометрию</span></button>
+            </div>
+        </div>
+        <div class="top-info" [hidden]="true" id="NextShow">
+            <!-- <div class="btns">
+                <button class="btn" [disabled]="disabled" (click)="showSignUP()">
+                    <span>dsadsa</span>
+                    <ng-container *ngIf="disabled">
+                        <div class="loader">
+                            <div class="lds-facebook">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </ng-container>
+                </button>
+            </div> -->
+        </div>
+        <div id="id_verilive" style="margin: auto;"></div>
+        <!-- <textarea id="results" [hidden]="true" [(ngModel)]="vfImage"></textarea> -->
+    </div>
+</section>

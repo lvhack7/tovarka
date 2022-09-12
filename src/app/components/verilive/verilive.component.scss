@@ -1,0 +1,38 @@
+.veriface {
+    padding: 20px 10px;
+
+    .card {
+        padding: 13px;
+        border: none;
+        text-align: center;
+        // height: 500px;
+    }
+
+    h2 {
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 26px;
+        text-align: center;
+        color: #313646;
+        margin-bottom: 20px;
+    }
+    
+}
+
+button {
+    background: #42A8FA;
+    width: 100%;
+    border: none;
+    font-size: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    border-radius: 6px;
+    margin: 30px auto 24px;
+    height: 52px;
+}
+
+
+.disable {
+    display: none;
+}

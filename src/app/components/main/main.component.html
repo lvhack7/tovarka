@@ -1,0 +1,116 @@
+<div class="main">
+    <p class="header">
+        Личный кабинет
+    </p>
+    <div class="card">
+        <div class="label-input">
+            <div class="title">
+                ИИН
+            </div>
+            <input type="text" name="iin">
+        </div>
+        <div class="label-input">
+            <div class="title">
+                Номер телефона
+            </div>
+            <input type="text" name="phone">
+        </div>
+        <div class="label-input">
+            <div class="title">
+                ФИО
+            </div>
+            <input type="text" name="name">
+        </div>
+    </div>
+    <p class="header">
+        Условия рассрочки
+    </p>
+    <div class="card">
+        <div class="row">
+            <div class="col-9 types">
+                Рассрочка:
+            </div>
+            <div class="col-3 types-right">
+                Кредит:
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-9 left-buttons">
+                <button class="type-button">
+                    3 мес.
+                </button>
+                <button class="type-button">
+                    6 мес.
+                </button>
+                <button class="type-button">
+                    9 мес.
+                </button>
+            </div>
+            <div class="col-3 right-button">
+                <button class="type-button">
+                    12 мес.
+                </button>
+            </div>
+        </div>
+
+        <div class="type-selection">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input radio-button" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                    value="option1" checked>
+                <label class="form-check-label radio-titles" for="inlineRadio1">Аннуитетный</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input radio-button" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                    value="option2">
+                <label class="form-check-label radio-titles" for="inlineRadio2">Дифференцированный</label>
+            </div>
+        </div>
+
+        <div class="row gy-4 box-container">
+            <div class="col-6">
+                <div class="box">
+                    <p class="top-text">Сумма кредита (тг.)</p>
+                    <p class="bottom-text">89 990.00</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="box">
+                    <p class="top-text">Ежемесячный платеж (тг.)</p>
+                    <p class="bottom-text">29 997.00</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="box">
+                    <p class="top-text">Сумма переплаты (тг)</p>
+                    <p class="bottom-text">0.00</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="box">
+                    <p class="top-text">Ежемесячный платеж (тг.)</p>
+                    <p class="bottom-text">0.00% (0.00%)</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="label-checkbox">
+            <label>
+                <input type="checkbox" required checked class="check">
+                <span>Я ознакомлен(а) с <a href="" style="color: #E3371D">правилами</a> предоставления микрокредитов</span>
+            </label>
+        </div>
+        <div class="label-checkbox">
+            <label>
+                <input type="checkbox" required checked class="check">
+                <span>Я соглашаюсь на сбор и обработку моих <a href="" style="color: #E3371D">персональных данных</a></span>
+            </label>
+        </div>
+        <div class="label-checkbox">
+            <label>
+                <input type="checkbox" required checked class="check">
+                <span>Я соглашаюсь на передачу/получение информации в/из <a href="" style="color: #E3371D">кредитного бюро</a></span>
+            </label>
+        </div>
+        <button class="button" type="button" (click)="continue()">Продолжить</button>
+    </div>
+</div>

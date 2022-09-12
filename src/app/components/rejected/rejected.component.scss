@@ -1,0 +1,30 @@
+.main {
+    padding: 20px 10px;
+
+    .header {
+        text-align: center;
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 26px;
+        color: #313444;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        border: none;
+        padding: 150px 13px 150px;
+
+        img {
+            height: 124px;
+            margin-bottom: 20px;
+        }
+
+        .text {
+            font-weight: 400;
+            font-size: 14px;
+            text-align: center;
+            letter-spacing: -0.3px;
+            color: rgba(4, 4, 21, 0.6);
+        }
+    }
+}
