@@ -16,8 +16,8 @@ export class MainComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  continue() {
-    this.router.navigate(['/agreements']);
-  }
+  // continue() {
+  //   this.router.navigate(['/agreements']);
+  // }
 
 }

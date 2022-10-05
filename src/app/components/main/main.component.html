@@ -1,116 +1,251 @@
 <div class="main">
-    <p class="header">
-        Личный кабинет
-    </p>
-    <div class="card">
-        <div class="label-input">
-            <div class="title">
-                ИИН
-            </div>
-            <input type="text" name="iin">
-        </div>
-        <div class="label-input">
-            <div class="title">
-                Номер телефона
-            </div>
-            <input type="text" name="phone">
-        </div>
-        <div class="label-input">
-            <div class="title">
-                ФИО
-            </div>
-            <input type="text" name="name">
-        </div>
-    </div>
-    <p class="header">
-        Условия рассрочки
-    </p>
-    <div class="card">
-        <div class="row">
-            <div class="col-9 types">
-                Рассрочка:
-            </div>
-            <div class="col-3 types-right">
-                Кредит:
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-9 left-buttons">
-                <button class="type-button">
-                    3 мес.
-                </button>
-                <button class="type-button">
-                    6 мес.
-                </button>
-                <button class="type-button">
-                    9 мес.
-                </button>
-            </div>
-            <div class="col-3 right-button">
-                <button class="type-button">
-                    12 мес.
-                </button>
-            </div>
-        </div>
-
-        <div class="type-selection">
-            <div class="form-check form-check-inline">
-                <input class="form-check-input radio-button" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                    value="option1" checked>
-                <label class="form-check-label radio-titles" for="inlineRadio1">Аннуитетный</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input radio-button" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                    value="option2">
-                <label class="form-check-label radio-titles" for="inlineRadio2">Дифференцированный</label>
-            </div>
-        </div>
-
-        <div class="row gy-4 box-container">
-            <div class="col-6">
-                <div class="box">
-                    <p class="top-text">Сумма кредита (тг.)</p>
-                    <p class="bottom-text">89 990.00</p>
+    <section class="section-one">
+        <div class="container" style="text-align:left">
+            <img class="logo" src="/assets/img/logo.svg" alt="">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="tagline">
+                        <h1 style="color: #E3371D;">Mingo <br> <span style="color: #27356E;">
+                                Система онлайн<br> рассрочки для<br> Ваших клиентов</span><br>
+                            <span> Выгодно бизнесу —<br> удобно покупателям</span>
+                        </h1>
+                    </div>
+                    <button class="partnership" [routerLink]="['/app']" fragment="mail">Стать партнером</button>
                 </div>
-            </div>
-            <div class="col-6">
-                <div class="box">
-                    <p class="top-text">Ежемесячный платеж (тг.)</p>
-                    <p class="bottom-text">29 997.00</p>
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="box">
-                    <p class="top-text">Сумма переплаты (тг)</p>
-                    <p class="bottom-text">0.00</p>
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="box">
-                    <p class="top-text">Ежемесячный платеж (тг.)</p>
-                    <p class="bottom-text">0.00% (0.00%)</p>
+                <div class="col-md-6">
+                    <div class="line">
+                        <div class="col-md-2">
+                            <img class="benefit_img" src="assets/img/1.svg" alt="1" />
+                        </div>
+                        <div class="col-md-10 text-right">
+                            <div class="benefit-text">Клиент выбирает товар в вашем магазине</div>
+                        </div>
+                    </div>
+                    <div class="line">
+                        <div class="col-md-2">
+                            <img class="benefit_img" src="assets/img/2.svg" alt="2" />
+                        </div>
+                        <div class="col-md-10 text-right">
+                            <div class="benefit-text">Получает ссылку от кассира</div>
+                        </div>
+                    </div>
+                    <div class="line">
+                        <div class="col-md-2">
+                            <img class="benefit_img" src="assets/img/3.svg" alt="3" />
+                        </div>
+                        <div class="col-md-10 text-right">
+                            <div class="benefit-text">Проходит анкетирование с телефона</div>
+                        </div>
+                    </div>
+                    <div class="line">
+                        <div class="col-md-2">
+                            <img class="benefit_img" src="assets/img/4.svg" alt="4" />
+                        </div>
+                        <div class="col-md-10 text-right">
+                            <div class="benefit-text">Подписывает документы онлайн и забирает товар</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="label-checkbox">
-            <label>
-                <input type="checkbox" required checked class="check">
-                <span>Я ознакомлен(а) с <a href="" style="color: #E3371D">правилами</a> предоставления микрокредитов</span>
-            </label>
+    </section>
+    <section class="section-two">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="container_1">
+                        <p class="card_title_1">Средний чек</p>
+                        <p class="card_percent">+38%</p>
+                        <p class="card_desc">Увеличение среднего чека, доступность к более дорогим товарам и
+                            дополнительным
+                            покупкам</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="container_1">
+                        <p class="card_title_2">Увеличение конверсии</p>
+                        <p class="card_percent u_k">+37%</p>
+                        <p class="card_desc">Увеличение конверсий в продажи, при возможности нескольких видов оплат</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="container_1">
+                        <p class="card_title_3">Чистая прибыль</p>
+                        <p class="card_percent">+40%</p>
+                        <p class="card_desc">Прирост чистой прибыли используя инструменты аналитики</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="label-checkbox">
-            <label>
-                <input type="checkbox" required checked class="check">
-                <span>Я соглашаюсь на сбор и обработку моих <a href="" style="color: #E3371D">персональных данных</a></span>
-            </label>
+    </section>
+    <section class="section-three">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 reason_text">
+                    <p class="top-text">Моментальное одобрение</p>
+                    <p class="bottom-text">Специалисты рассмотрят вашу заявку в кратчайшие сроки</p>
+                </div>
+                <div class="col-md-6">
+                    <img class="image-section-three" src="assets/img/time.svg" alt="1" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="image-section-three" src="assets/img/time1.svg" alt="2" />
+                </div>
+                <div class="col-md-6 reason_text_1">
+                    <p class="top-text">Анализ продаж и прогнозирование выручки с помощью нашей системы аналитики</p>
+                    <p class="bottom-text">Система проанализует и поможет с прогнозированием чтобы не возникало с этим
+                        никаких трудностей</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 reason_text">
+                    <p class="top-text">Обучение продажам, закрепление персонального менеджера</p>
+                    <p class="bottom-text">Вас научат пользоваться сервисом специально подобранный персональный менеджер
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img class="image-section-three" src="assets/img/time2.svg" alt="3" />
+                </div>
+            </div>
         </div>
-        <div class="label-checkbox">
-            <label>
-                <input type="checkbox" required checked class="check">
-                <span>Я соглашаюсь на передачу/получение информации в/из <a href="" style="color: #E3371D">кредитного бюро</a></span>
-            </label>
+        <div class="send_message">
+            <img class="send_effect_1" src="assets/img/send1.svg" alt="1" />
+            <button class="send">Оставить заявку</button>
+            <img class="send_effect_2" src="assets/img/send1.svg" alt="2" />
         </div>
-        <button class="button" type="button" (click)="continue()">Продолжить</button>
-    </div>
+    </section>
+    <section class="section-four">
+        <div class="container">
+            <h2>Как это работает?</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="step-img" src="assets/img/step4.svg" />
+                    <p class="top-text">Отправьте заявку</p>
+                    <p class="bottom-text">Оперативное рассмотрение заявок</p>
+                </div>
+                <div class="col-md-3">
+                    <img class="step-img" src="assets/img/step3.svg" />
+                    <p class="top-text">Подпишите договор</p>
+                    <p class="bottom-text">Мы подключим вас и настроим личный кабинет</p>
+                </div>
+                <div class="col-md-3">
+                    <img class="step-img" src="assets/img/step2.svg" />
+                    <p class="top-text">Обучение сотрудников</p>
+                    <p class="bottom-text">Научим сотрудников правильно пользоваться сервисом</p>
+                </div>
+                <div class="col-md-3">
+                    <img class="step-img" src="assets/img/step1.svg" />
+                    <p class="top-text">Увеличивайте продажи</p>
+                    <p class="bottom-text">Повышение лояльности и удержание клиентов</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
+
+
+
+<ng-container>
+    <section class="program mt-5">
+        <div class="partnership_section">
+            <h2>Партнерская программа</h2>
+            <div class="row row-cols-2 row-cols-lg-4 mt-3">
+                <div class="col col-sm-4">
+                    <p class="installment">Рассрочка</p>
+                    <h5 class="month_count">3</h5>
+                    <p class="installment">месяца</p>
+                </div>
+                <div class="col col-sm-4">
+                    <p class="installment">Рассрочка</p>
+                    <h5 class="month_count">6</h5>
+                    <p class="installment">месяцев</p>
+                </div>
+                <div class="col col-sm-4">
+                    <p class="installment">Рассрочка</p>
+                    <h5 class="month_count">9</h5>
+                    <p class="installment">месяцев</p>
+                </div>
+                <div class="col col-sm-4">
+                    <p class="installment">Кредит на</p>
+                    <h5 class="month_count">12</h5>
+                    <p class="installment">месяцев</p>
+                </div>
+            </div>
+            <div class="partnership_commission">
+                <img class="partnership_arrow" src="assets/img/Vector 10.svg" alt="">
+            </div>
+            <div class="commission">
+                <p class="comm_percent">8%</p>
+                <p class="comm_text">комиссия<br />
+                    Mingo</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="mail_box" id="mail">
+        <form ngNativeValidate>
+            <div class="registry_section">
+                <div class="registry_box shadow">
+                    <div class="registry_title">
+                        <p class="connect">Подключиться к рассрочке Mingo</p>
+                    </div>
+                    <div class="registry_input">
+                        <div class="row row-cols-1 row-cols-lg-2">
+                            <div class="col">
+                                <div class="FIO_and_phone">
+                                    <label class="input">
+                                        <input class="input__field" type="text" placeholder=" " />
+                                        <span class="input__label">ФИО</span>
+                                    </label>
+        
+                                    <label class="input">
+                                        <input class="input__field" type="text" placeholder=" " />
+                                        <span class="input__label">ИИН/БИН</span>
+                                    </label>
+                                </div>
+                            </div>
+    
+                            <div class="col">
+                                <div class="FIO_and_phone">
+                                    <div class="registry-input mb-1">
+                                        <select name="cities" class="FIO">
+                                            <option value="choose">Выберите город</option>
+                                            <option value="Astana">Astana</option>
+                                            <option value="Almaty">Almaty</option>
+                                            <option value="Shymkent">Shymkent</option>
+                                            <option value="Balkhash">Balkhash</option>
+                                        </select>
+                                    </div>
+        
+                                    <label class="input">
+                                        <input class="input__field" type="tel" required [unmask]="true"
+                                            [imask]="{mask: '+{7}0000000000',lazy: false, colormask:'#27356E'}" />
+                                        <span class="input__label">Номер телефона</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="agreement">
+                        <label class="agreement_text" for="agree">
+                            <input type="checkbox" required>
+                            <span> Предоставляю согласие на сбор, обработку и хранение персональных данных</span>
+                        </label>
+                    </div>
+                    <button class="send_registry">Оставить заявку</button>
+                    <div class="under_registry">
+                        <img src="assets/img/clock.svg" alt="">
+                        <div class="agreement_text_5min">
+                            <p class="agreement_5min">В течении<span class="min5"> 5 минут </span>с Вами свяжутся и
+                                ответят на все вопросы</p>
+                            <p class="agreement_5min"></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </form>
+    </section>
+</ng-container>
